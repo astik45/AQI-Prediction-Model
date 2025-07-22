@@ -3,7 +3,8 @@ import numpy as np
 import joblib
 
 # Load model
-model = joblib.load('trained_model.pkl','rb')
+model = joblib.load('trained_model.pkl','rb') as file:
+    model = pickle.load(file)
 
 st.set_page_config(page_title="AQI Predictor", layout="centered")
 st.title("🌫️ AQI Prediction App")
