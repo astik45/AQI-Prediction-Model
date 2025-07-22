@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load model
-model = joblib.load('D:/My project/AQI_Prediction/trained_model.pkl')
+model = joblib.load('trained_model.pkl','rb')
 
 st.set_page_config(page_title="AQI Predictor", layout="centered")
 st.title("🌫️ AQI Prediction App")
