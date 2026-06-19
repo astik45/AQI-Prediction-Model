@@ -58,8 +58,8 @@ AQI_Prediction/
 
 ```bash
 # Clone the repo
-git clone https://github.com/astik45/AQI_Prediction.git
-cd AQI_Prediction
+git clone https://github.com/astik45/AQI-Prediction-Model.git
+cd AQI-Prediction-Model
 
 # Install dependencies
 pip install -r requirements.txt
